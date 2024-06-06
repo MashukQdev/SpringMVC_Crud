@@ -29,10 +29,10 @@
 <body>
 
 <div class="container">
-    <h2>Registered Customer Details</h2>
+    <h2 class="moveleft" >Registered Customer Details</h2>
     <div class="row mb-3">
         <div class="col text-right">
-            <a href="registration" class="btn btn-primary" id="addEmployeeBtn"><i class="fas fa-plus"></i> Add Customer</a>
+            <a href="registration" class="btn btn-primary moveright" id="addEmployeeBtn"><i class="fas fa-plus"></i> Add Customer</a>
         </div>
     </div>
     <div class="table-container">
