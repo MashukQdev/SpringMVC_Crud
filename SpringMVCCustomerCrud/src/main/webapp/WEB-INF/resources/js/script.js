@@ -280,10 +280,7 @@ $(document).ready(function() {
     // Function to show alert and hide it automatically
     $('#customerForm').submit(function(event) {
         event.preventDefault(); // Prevent default form submission
-        
-        // Debug statement
-        console.log("Form submit event triggered");
-
+		 $('#loader').show();
         // Show the alert modal
         var checkCondition = $('#formName').val();
         if(checkCondition === 'check') {
@@ -292,10 +289,6 @@ $(document).ready(function() {
 			$('#customAlertMessage').text('Data updated successfully!');
 		}
         $('#customAlertModal').modal('show');
-
-        // Debug statement
-        console.log("Modal show function called");
-
         // Automatically hide the alert modal after 1 second
         setTimeout(function() {
             $('#customAlertModal').modal('hide');
@@ -329,5 +322,7 @@ $(document).ready(function() {
             reloadPage();
         }
     });
+    
+
     
 });
