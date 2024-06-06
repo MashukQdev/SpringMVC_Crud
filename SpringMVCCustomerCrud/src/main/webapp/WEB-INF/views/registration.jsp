@@ -105,5 +105,8 @@
     </div>
 </div>
 
+<!-- Loader to show on submit -->
+<div id="loader" class="loader"></div>
+ 
 </body>
 </html>
